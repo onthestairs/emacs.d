@@ -5,6 +5,17 @@
 (setq-default ac-auto-start nil)
 (setq-default ac-dwim nil) ; To get pop-ups with docs even if a word is uniquely completed
 
+;; Austins
+(setq ac-auto-show-menu t)
+(setq ac-dwim t)
+(setq ac-use-menu-map t)
+(setq ac-quick-help-delay 1)
+(setq ac-quick-help-height 60)
+(setq ac-disable-inline t)
+(setq ac-show-menu-immediately-on-auto-complete t)
+(setq ac-auto-start 2)
+(setq ac-candidate-menu-min 0)
+
 ;;----------------------------------------------------------------------------
 ;; Use Emacs' built-in TAB completion hooks to trigger AC (Emacs >= 23.2)
 ;;----------------------------------------------------------------------------

@@ -351,5 +351,7 @@ With arg N, insert N newlines."
 (guide-key-mode 1)
 (diminish 'guide-key-mode)
 
+;; Austin's
+(global-linum-mode t)
 
 (provide 'init-editing-utils)

@@ -97,6 +97,13 @@
 
 (require 'init-dash)
 (require 'init-ledger)
+
+;; Austin's packages
+;;(require 'init-ido-fix)
+(require 'init-projectile)
+(require 'init-flx-ido)
+(require 'init-austin)
+
 ;; Extra packages which don't require any configuration
 
 (require-package 'gnuplot)

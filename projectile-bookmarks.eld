@@ -1,0 +1,1 @@
+("/python/distilledstore/" "~/.emacs.d/" "/python/labsmanager/")
