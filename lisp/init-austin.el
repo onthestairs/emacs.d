@@ -32,7 +32,8 @@
 ;; Add Autofill mode to mode hooks.
 (add-hook 'python-mode-hook 'turn-on-auto-fill)
 
-;; wild attempt to get python working through vagrant
- (setq python-shell-interpreter "/python/distilledstore/sshp")
+
+;; Remove trailing whitespace before save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 (provide 'init-austin)
