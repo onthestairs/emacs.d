@@ -32,7 +32,4 @@
 ;; Add Autofill mode to mode hooks.
 (add-hook 'python-mode-hook 'turn-on-auto-fill)
 
-;; wild attempt to get python working through vagrant
- (setq python-shell-interpreter "/python/distilledstore/sshp")
-
 (provide 'init-austin)
