@@ -32,4 +32,7 @@
 ;; Add Autofill mode to mode hooks.
 (add-hook 'python-mode-hook 'turn-on-auto-fill)
 
+;; Remove trailing whitespace before save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (provide 'init-austin)
