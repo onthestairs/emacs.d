@@ -19,7 +19,7 @@
 (require-package 'cyberpunk-theme)
 (add-hook 'after-init-hook
       (lambda () (load-theme 'cyberpunk t)))
-(load-theme 'cyberpunk)
+(load-theme 'sanityinc-tomorrow-blue)
 
 ;; Font size
 (set-face-attribute 'default nil :height 120)
@@ -34,5 +34,13 @@
 
 ;; Remove trailing whitespace before save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;; Allow horizontal scrolling with the mouse pads
+(global-set-key (kbd "<mouse-6>") 'ignore)
+(global-set-key (kbd "<mouse-7>") 'ignore)
+(global-set-key (kbd "<double-mouse-6>") 'ignore)
+(global-set-key (kbd "<double-mouse-7>") 'ignore)
+(global-set-key (kbd "<triple-mouse-6>") 'ignore)
+(global-set-key (kbd "<triple-mouse-7>") 'ignore)
 
 (provide 'init-austin)

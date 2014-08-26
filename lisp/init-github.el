@@ -10,5 +10,4 @@
   (require-package 'magit-gh-pulls))
 
 
-
 (provide 'init-github)

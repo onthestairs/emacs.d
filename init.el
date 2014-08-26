@@ -103,6 +103,8 @@
 ;;(require 'init-ido-fix)
 (require 'init-projectile)
 (require 'init-flx-ido)
+(require 'init-ess)
+
 (require 'init-austin)
 
 ;; Extra packages which don't require any configuration
@@ -156,3 +158,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'scroll-left 'disabled nil)
