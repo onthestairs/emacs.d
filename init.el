@@ -104,6 +104,7 @@
 (require 'init-projectile)
 (require 'init-flx-ido)
 (require 'init-austin)
+(require 'init-ipython)
 
 ;; Extra packages which don't require any configuration
 
