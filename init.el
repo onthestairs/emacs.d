@@ -106,6 +106,7 @@
 (require 'init-ess)
 
 (require 'init-austin)
+(require 'init-ipython)
 
 ;; Extra packages which don't require any configuration
 
