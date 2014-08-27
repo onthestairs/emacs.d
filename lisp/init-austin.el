@@ -17,8 +17,6 @@
 
 ;; Theme
 (require-package 'cyberpunk-theme)
-(add-hook 'after-init-hook
-      (lambda () (load-theme 'cyberpunk t)))
 (load-theme 'sanityinc-tomorrow-blue)
 
 ;; Font size
