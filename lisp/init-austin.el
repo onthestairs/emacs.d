@@ -18,8 +18,8 @@
 ;; Theme
 ;; (require-package 'cyberpunk-theme)
 ;; (load-theme 'sanityinc-tomorrow-blue)
-(color-theme-sanityinc-tomorrow-blue)
-(load-theme 'sanityinc-tomorrow-blue t)
+;; (color-theme-sanityinc-tomorrow-blue)
+;; (load-theme 'sanityinc-tomorrow-blue t)
 
 ;; Font size
 (set-face-attribute 'default nil :height 120)
