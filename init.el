@@ -104,6 +104,7 @@
 (require 'init-projectile)
 (require 'init-flx-ido)
 (require 'init-ess)
+(require 'init-go)
 
 (require 'init-austin)
 (require 'init-ipython)
