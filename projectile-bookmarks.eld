@@ -1,1 +1,1 @@
-("/python/distilledstore/" "~/.emacs.d/" "~/extension/" "/python/labsmanager/" "~/projects/withoutunderstanding/live/")
+("~/.emacs.d/" "/python/distilledstore/" "~/extension/" "/python/labsmanager/" "~/projects/withoutunderstanding/live/")
