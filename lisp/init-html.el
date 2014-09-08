@@ -13,11 +13,21 @@
 (require-package 'web-mode)
 
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
+
+;; as per http://truongtx.me/2014/03/10/emacs-setup-jsx-mode-and-jsx-syntax-checking/
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+  (if (equal web-mode-content-type "jsx")
+      (let ((web-mode-enable-part-face nil))
+        ad-do-it)
+    ad-do-it))
 
 (setq web-mode-engines-alist
           '(("django" . "/labsmanager/.*\\.html\\'")
             ("django" . "/distilledstore/.*\\.html\\'"))
           )
+
+
 
 (setq web-mode-extra-snippets
       '(

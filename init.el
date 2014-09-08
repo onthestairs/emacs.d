@@ -105,6 +105,8 @@
 (require 'init-flx-ido)
 (require 'init-ess)
 (require 'init-helm)
+(require 'init-go)
+
 
 (require 'init-austin)
 (require 'init-ipython)

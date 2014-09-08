@@ -1,7 +1,7 @@
 ;; newline-withoug-break-of-line
 (defun newline-without-break-of-line ()
   "1. remove to end of the line.
-  2. insert newline with index"
+   2. insert newline with index"
 
   (interactive)
   (let ((oldpos (point)))
@@ -13,11 +13,13 @@
 ;; Set imenu to ctrl-i
 ;; (global-set-key (kbd "<M-i-i>") 'imenu)
 
-(setq explicit-shell-file-name "/bin/bash")
+;; (setq explicit-shell-file-name "/bin/bash")
 
 ;; Theme
-(require-package 'cyberpunk-theme)
-(load-theme 'sanityinc-tomorrow-blue)
+;; (require-package 'cyberpunk-theme)
+;; (load-theme 'sanityinc-tomorrow-blue)
+;; (color-theme-sanityinc-tomorrow-blue)
+;; (load-theme 'sanityinc-tomorrow-blue t)
 
 ;; Font size
 (set-face-attribute 'default nil :height 120)
