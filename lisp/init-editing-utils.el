@@ -167,6 +167,9 @@
 (global-set-key (kbd "C-c c e") 'mc/edit-ends-of-lines)
 (global-set-key (kbd "C-c c a") 'mc/edit-beginnings-of-lines)
 
+;; Meta click for multiple cursors
+(global-unset-key (kbd "M-<down-mouse-1>"))
+(global-set-key (kbd "M-<down-mouse-1>") 'mc/add-cursor-on-click)
 
 ;; Train myself to use M-f and M-b instead
 (global-unset-key [M-left])

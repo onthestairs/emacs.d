@@ -105,9 +105,9 @@
 (require 'init-flx-ido)
 (require 'init-ess)
 (require 'init-go)
+(require 'init-ipython)
 
 (require 'init-austin)
-(require 'init-ipython)
 
 ;; Extra packages which don't require any configuration
 
