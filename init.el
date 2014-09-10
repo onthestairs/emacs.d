@@ -107,7 +107,7 @@
 (require 'init-helm)
 (require 'init-go)
 (require 'init-ipython)
-
+(require 'init-autopair)
 
 (require 'init-austin)
 
