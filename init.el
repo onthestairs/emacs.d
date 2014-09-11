@@ -100,18 +100,18 @@
 (require 'init-ledger)
 
 ;; Austin's packages
-;;(require 'init-ido-fix)
 (require 'init-projectile)
 (require 'init-flx-ido)
 (require 'init-ess)
 (require 'init-helm)
 (require 'init-go)
+(require 'init-ipython)
+(require 'init-autopair)
 
 ;; My packages which don't required any conf
 (require-package 'howdoi)
 
 (require 'init-austin)
-(require 'init-ipython)
 
 ;; Extra packages which don't require any configuration
 
