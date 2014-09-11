@@ -107,6 +107,8 @@
 (require 'init-helm)
 (require 'init-go)
 
+;; My packages which don't required any conf
+(require-package 'howdoi)
 
 (require 'init-austin)
 (require 'init-ipython)
