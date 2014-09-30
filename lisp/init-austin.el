@@ -14,6 +14,7 @@
 ;; (global-set-key (kbd "<M-i-i>") 'imenu)
 
 ;; (setq explicit-shell-file-name "/bin/bash")
+(setq shell-file-name "/bin/bash")
 
 ;; Theme
 ;; (require-package 'cyberpunk-theme)
