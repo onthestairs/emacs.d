@@ -34,5 +34,11 @@
         ("django" . (("include" . ("{% include \""  . "\" %}"))))
        ))
 
+;; disable autopair
+(add-hook 'web-mode-hook
+           #'(lambda ()
+               (autopair-mode -1))             ;; for emacsen >= 24
+)
+(setq web-mode-enable-auto-pairing t)
 
 (provide 'init-html)
