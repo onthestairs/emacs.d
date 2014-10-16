@@ -44,4 +44,7 @@
 (global-set-key (kbd "<triple-mouse-6>") 'ignore)
 (global-set-key (kbd "<triple-mouse-7>") 'ignore)
 
+;; set nyan-mode on
+(nyan-mode)
+
 (provide 'init-austin)
