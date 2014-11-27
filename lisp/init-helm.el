@@ -5,4 +5,6 @@
 
 (require-package 'helm-spotify)
 
+(global-set-key (kbd "C-o") 'helm-occur)
+
 (provide 'init-helm)

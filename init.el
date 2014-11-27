@@ -108,6 +108,7 @@
 (require 'init-ipython)
 (require 'init-autopair)
 (require 'init-idris)
+(require 'init-auctex)
 
 ;; My packages which don't required any conf
 (require-package 'howdoi)

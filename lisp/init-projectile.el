@@ -6,6 +6,4 @@
 
 (projectile-global-mode)
 
-(global-set-key (kbd "C-p") 'helm-projectile)
-
 (provide 'init-projectile)
