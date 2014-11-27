@@ -51,5 +51,7 @@
       (kill-sexp -1)
       (insert (format "%S" value))))
 
+;; set nyan-mode on
+(nyan-mode)
 
 (provide 'init-austin)

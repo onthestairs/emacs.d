@@ -109,9 +109,11 @@
 (require 'init-autopair)
 (require 'init-idris)
 (require 'init-auctex)
+(require 'init-rust)
 
 ;; My packages which don't required any conf
 (require-package 'howdoi)
+(require-package 'nyan-mode)
 
 (require 'init-austin)
 
