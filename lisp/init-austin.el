@@ -21,6 +21,9 @@
 ;; (load-theme 'sanityinc-tomorrow-blue)
 ;; (color-theme-sanityinc-tomorrow-blue)
 ;; (load-theme 'sanityinc-tomorrow-blue t)
+(require-package 'moe-theme)
+(require 'moe-theme)
+(moe-light)
 
 ;; Font size
 (set-face-attribute 'default nil :height 120)
