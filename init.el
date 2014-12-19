@@ -110,6 +110,8 @@
 (require 'init-go)
 (require 'init-ipython)
 (require 'init-autopair)
+(require 'init-idris)
+(require 'init-auctex)
 (require 'init-rust)
 
 ;; My packages which don't required any conf
@@ -118,7 +120,10 @@
 
 (require 'init-austin)
 
+
 ;; Extra packages which don't require any configuration
+;; Austin's first
+(require-package 'nyan-mode)
 
 (require-package 'gnuplot)
 (require-package 'lua-mode)

@@ -2,7 +2,9 @@
 
 (setq ein:use-auto-complete t)
 
+;; needed for python jedi
 (require-package 'deferred)
+
 (require-package 'jedi)
 
 (add-hook 'python-mode-hook 'jedi:setup)

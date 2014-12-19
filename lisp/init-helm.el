@@ -10,5 +10,4 @@
 ;; use helm-semantic-or-imenu
 (global-set-key (kbd "C-f") 'helm-semantic-or-imenu)
 
-
 (provide 'init-helm)

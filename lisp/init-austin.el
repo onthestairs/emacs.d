@@ -47,6 +47,13 @@
 (global-set-key (kbd "<triple-mouse-6>") 'ignore)
 (global-set-key (kbd "<triple-mouse-7>") 'ignore)
 
+;; Cool functions
+(defun replace-last-sexp ()
+    (interactive)
+    (let ((value (eval (preceding-sexp))))
+      (kill-sexp -1)
+      (insert (format "%S" value))))
+
 ;; set nyan-mode on
 (nyan-mode)
 
