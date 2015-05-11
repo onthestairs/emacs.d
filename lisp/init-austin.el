@@ -23,7 +23,7 @@
 ;; (load-theme 'sanityinc-tomorrow-blue t)
 (require-package 'moe-theme)
 (require 'moe-theme)
-(moe-light)
+(moe-dark)
 
 ;; Font size
 (set-face-attribute 'default nil :height 120)
@@ -49,12 +49,17 @@
 
 ;; Cool functions
 (defun replace-last-sexp ()
-    (interactive)
-    (let ((value (eval (preceding-sexp))))
-      (kill-sexp -1)
-      (insert (format "%S" value))))
+  (interactive)
+  (let ((value (eval (preceding-sexp))))
+    (kill-sexp -1)
+    (insert (format "%S" value))))
 
 ;; set nyan-mode on
 (nyan-mode)
+
+;; hungry delete
+(require-package 'hungry-delete)
+(global-hungry-delete-mode)
+(global-set-key (kbd "M-<backspace>") 'hungry-delete-backward)
 
 (provide 'init-austin)

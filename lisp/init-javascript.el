@@ -40,6 +40,10 @@
    js2-basic-offset preferred-javascript-indent-level
    js2-bounce-indent-p nil)
 
+  (add-hook 'js2-mode-hook ;; guessing
+            '(lambda ()
+               (local-set-key (kbd "C-c .") 'ac-js2-jump-to-definition)))
+
   (after-load 'js2-mode
     (js2-imenu-extras-setup)))
 

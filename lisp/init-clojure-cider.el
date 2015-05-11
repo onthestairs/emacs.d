@@ -8,6 +8,8 @@
 ;; nrepl with Clojure
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;; personal exec path
+
 (setq nrepl-popup-stacktraces nil)
 
 (after-load 'cider
